@@ -3,10 +3,12 @@
 %define		_status		devel
 %define		_pearname	%{_class}_%{_subclass}
 
+%define		_requires_exceptions pear(PHPUnit.php)
+
 Summary:	%{_pearname} - an SQL Parser
 Name:		php-pear-%{_pearname}
 Version:	0.5
-Release:	%mkrel 7
+Release:	%mkrel 8
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -79,5 +81,3 @@ rm -rf %{buildroot}
 %dir %{_datadir}/pear/%{_class}
 %{_datadir}/pear/%{_class}/*.php
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
