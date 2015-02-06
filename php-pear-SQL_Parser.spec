@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.5
-Release:	16
+Release:	17
 Summary:	An SQL Parser
 License:	PHP License
 Group:		Development/PHP
