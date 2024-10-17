@@ -8,7 +8,7 @@ Release:	17
 Summary:	An SQL Parser
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/SQL_Parser/
+URL:		https://pear.php.net/package/SQL_Parser/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
 Requires(post): php-pear
 Requires(preun): php-pear
